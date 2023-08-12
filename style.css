@@ -1,0 +1,85 @@
+/*importing Google Fonts - Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #6563ff; /* Fallback background */
+}
+
+.container {
+    font-weight: 500;
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 10px 20px 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    background:white;
+}
+
+#jokeContent {
+    font-weight: 600;
+}
+
+#jokeBtn {
+    background-color: #6563ff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#jokeBtn:hover {
+    background-color: #4d4bff;
+}
+
+#instructions{
+    font-weight: normal;
+    color: #868686;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px;
+    color: black;
+}
+
+@media (max-width: 767px) {
+    .wrapper {
+        max-width: 90%;
+    }
+
+    .controls {
+        flex-wrap: wrap;
+    }
+
+    .filters span {
+        display: inline-block;
+        margin: 0 5px;
+        font-size: 14px;
+    }
+
+    .controls .clear-btn {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+}
+
+

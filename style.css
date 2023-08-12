@@ -52,13 +52,14 @@ body {
 }
 
 footer{
+    font-size: 12.5px;
     position: absolute;
     bottom: 0;
     width: 100%;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #6563ff;
     padding: 10px;
-    color: black;
+    color: white;
 }
 
 @media (max-width: 767px) {
